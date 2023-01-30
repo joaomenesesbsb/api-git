@@ -1,13 +1,17 @@
+import './styles.css';
 import BtnAPI from "../buttons";
 
-export default function CardAPI(){
-    return(
-        <main>
-            <h2>Encontre um perfil Github</h2>
-            <form>
-                <input type="text" placeholder='Usuário Github'/>
-                <BtnAPI name='Encontrar'/>
-            </form>
+export default function CardAPI() {
+    return (
+        <main className='container'>
+            <div className='card-find-user'>
+                <h2>Encontre um perfil Github</h2>
+                <form className='form-find-user'>
+                    <input type="text" placeholder='Usuário Github' />
+                    <BtnAPI name='Encontrar' />
+                </form>
+            </div>
+
         </main>
     )
 }
