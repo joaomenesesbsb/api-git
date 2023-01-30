@@ -1,3 +1,7 @@
+.card-content {
+    padding: 0 20px;
+}
+
 .card-find-user {
     background-color: var(--color-bg-tertiary);
     border-radius: 16px;
@@ -6,6 +10,7 @@
 }
 
 .card-find-user h2 {
+    padding-top: 0;
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 12px;
