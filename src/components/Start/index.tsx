@@ -8,7 +8,7 @@ export default function Start() {
             <div className='container home-content'>
                     <h2>Desafio Github API</h2>
                     <h3>DevSuperior - Escola de programação</h3>
-                <Link to={'/find-user'}>
+                <Link to={'/find'}>
                     <BtnStart name='Começar' />
                 </Link>
             </div>

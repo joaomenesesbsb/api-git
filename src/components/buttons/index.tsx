@@ -4,8 +4,8 @@ type Props = {
 
 export default function BtnAPI({ name }: Props) {
     return (
-        <div className="btn">
+        <button  className="btn">
             {name}
-        </div>
+        </button>
     );
 }

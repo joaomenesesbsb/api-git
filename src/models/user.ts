@@ -1,8 +1,8 @@
-export type ProductDTO ={
+export type UserDTO ={
     id: number;
     name: string;
-    profile: string;
-    locality: string;
-    imgUrl: string;
-    followers: number;
+    html_url: string;
+    location: string;
+    avatar_url: string;
+    followers: string;
 }
