@@ -1,0 +1,6 @@
+.not-found-content{
+    font-size: 38px;
+    margin-top: 64px;
+    color: var(not-found-content);
+    font-weight: 500;
+}
