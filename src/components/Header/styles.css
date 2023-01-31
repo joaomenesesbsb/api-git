@@ -5,8 +5,7 @@ header {
     align-items: center;
 }
 
-nav {
-    padding: 0 20px;
+nav h1{
     font-size: 24px;
     color: var(--color-font-primary);
 }

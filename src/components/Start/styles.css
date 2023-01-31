@@ -1,10 +1,10 @@
-h2 {
+.home-content h2 {
     padding-top: 27px;
     color: var(--color-font-secundary);
     font-size: 48px;
 }
 
-h3 {
+.home-content h3 {
     color: var(--color-font-tertiary);
     font-size: 24px;
     margin-bottom: 35px;

@@ -1,0 +1,17 @@
+.user-form {
+    background-color: var(--color-bg-sedundary);
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--color-border-primary);
+    border-radius: 4px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.card-user-content {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-font-user-info);
+}

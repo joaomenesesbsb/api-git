@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './routes/Home'
 import APIGithub from './routes/Home/APIGithub'
-import FindUser from './routes/Home/FindUser'
-import UserData from './routes/Home/FindUser/UserData'
+import FindUser from './routes/Home/APIGithub/FindUser'
+import UserData from './routes/Home/APIGithub/FindUser/UserData'
 
 export default function App() {
 

@@ -1,5 +1,6 @@
 import './styles.css';
 import BtnAPI from "../buttons";
+import { Link } from 'react-router-dom';
 
 export default function CardAPI() {
     return (
@@ -8,7 +9,9 @@ export default function CardAPI() {
                 <h2>Encontre um perfil Github</h2>
                 <form className='form-find-user'>
                     <input type="text" placeholder='Usuário Github' />
-                    <BtnAPI name='Encontrar' />
+                    <Link to={'/find-user/user'}>
+                        <BtnAPI name='Encontrar' />
+                    </Link>
                 </form>
             </div>
 
